@@ -19,7 +19,7 @@ class Phrase {
                 }
             });
         }
-        //checking if letter is correct
+        //checking if letter matches a letter in phrase
     checkLetter(letter) {
         console.log(this.phrase);
         if (this.phrase.includes(letter)) {
